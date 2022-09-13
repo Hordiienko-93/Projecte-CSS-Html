@@ -1,11 +1,33 @@
 .img{
- display: block;
- width: 200px;
+ /* display: block; */
+ width: 150px;
+ height: 150px;
  border: 5px solid red;
+ border-radius: 50%;
  padding: 15px;
- margin: 50px 20px;
+ margin: 50px 10px;
+ object-fit: cover;
+ object-position: top;
+ 
 }
-.neg-margin{
-  margin-top: -20px;
-  border: 5 px solid blue;
+.di{
+  display: inline-block;
+  width: 300px;
+  border: 5px solid green;
+  padding: 10px 30px;
+  /* margin: 20px auto; */
+
+}
+
+
+
+
+
+
+/* .span{ */
+  display: block;
+  width: 200px;
+  border:5px solid red;
+  padding: 10px 30px;
+  margin: 20px 50px;
 }
