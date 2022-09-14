@@ -1,16 +1,14 @@
-.wrapper{
-  min-width: 200px;
-  max-width: 400px;
-  min-height: 200px;
-  height: 50vw;
-  max-height: 700px;
-border: 2px solid red;
-padding-top: 20px;
-}
-.inner{
-  box-sizing: border-box;
-  width: 50%;
-  height: 50%    ;
-  border: 2px solid green;
-  overflow-y: scroll;
-} 
+.btn{
+  min-width: 60px;
+  width: 100%;  
+   max-width: 120px;
+  
+ 
+  padding: 10px;
+  font-size: 2em;
+  text-transform: capitalize;}
+  .text-overflow{
+    overflow: hidden;
+     text-overflow: ellipsis;
+       white-space: nowrap;
+  }
